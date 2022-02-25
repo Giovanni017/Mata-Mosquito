@@ -13,3 +13,12 @@
     height: 90px;
     width: 90px;
 }
+
+/* Lados */
+.ladoA {
+    transform: scaleX(1);
+}
+
+.ladoA {
+    transform: scaleX(-1);
+}
