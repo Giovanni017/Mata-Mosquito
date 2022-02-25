@@ -1,3 +1,10 @@
+/*cenario*/
+body {
+    background-image: url(../Assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 /*tamanho mosquito*/
 .mosquito1 {
     height: 50px;
@@ -21,4 +28,28 @@
 
 .ladoA {
     transform: scaleX(-1);
+}
+
+/*painel*/
+.painel {
+    background-color: #fff;
+    border-top: 1px solid #fff;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.7;
+    padding: 10px;
+    position: absolute;
+    width: 190px;
+}
+
+/*vidas*/
+.vidas{
+    float: left;
+}
+
+/*cronometro*/
+.cronometro {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
 }
