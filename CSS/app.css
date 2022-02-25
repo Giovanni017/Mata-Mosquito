@@ -1,3 +1,8 @@
+/*cursor*/
+html {
+    cursor: url(../Assets/mata_mosca.png) 30 30, auto;
+}
+
 /*cenario*/
 body {
     background-image: url(../Assets/bg.jpg);
