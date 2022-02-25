@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../CSS/app.css">
     <script src="../JS/jogo.js"></script>
     <title>Mata mosquito</title>
 </head>
-<body onresize="ajustaTamanhoPalcoJogo()">
-    
 
-    <script>posicaoRandomica()</script>
+<body onresize="ajustaTamanhoPalcoJogo()">
+
+
+    <script>
+        setInterval(function () {
+            posicaoRandomica()
+        }, 1000)
+    </script>
 </body>
+
 </html>
